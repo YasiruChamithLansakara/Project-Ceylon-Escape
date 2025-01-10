@@ -1,0 +1,62 @@
+.packages {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 20px 6%;
+}
+
+.package {
+    background-color: #fff;
+    width: 20rem;
+    height: 25rem;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: auto;
+    transition: transform 0.3s ease;
+    padding-top: 20px;
+}
+
+.package:hover {
+    transform: translateY(-10px);
+}
+
+.package img {
+    width: 85%;
+    height: 15rem;
+    border-radius: 10px;
+}
+
+.hero h2{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-weight: bolder;
+}
+
+.package h3 {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0 5px;
+    padding-top: 1rem;
+}
+
+.package p {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 14px;
+    color: #0078d4;
+    font-weight: bold;
+}
+
+.hero-packages img{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    opacity: 0.7;
+}

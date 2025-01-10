@@ -1,0 +1,66 @@
+.hero-enquiry img{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    opacity: 0.7;
+}
+
+.hero{
+    margin-bottom: 6%;
+}
+
+.hero .text h1 {
+    text-align: center;
+    color: #004a7c;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.enquiry-form label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #004a7c;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.enquiry-form input[type="text"],
+.enquiry-form input[type="email"],
+.enquiry-form input[type="tel"],
+.enquiry-form select,
+.enquiry-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.enquiry-form textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #004a7c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.submit-button:hover {
+    background-color: #ffcb05;
+}
+
+hr{
+    height: 0.5rem;
+}

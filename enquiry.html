@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ceylon Escape | Enquiry</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="enquiry.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="logo">
+                <img src="logo.png" alt="Logo">
+                <p>Ceylon Escape</p>
+            </nav>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="packages.html">Packages</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="enquiry.html">Enquiry</a>
+            </nav>
+
+            <nav class="about">
+                <a href="about.html">About Us</a>
+            </nav>
+        </header>
+
+        <section class="hero-enquiry">
+            <img src="flight.jpeg" alt="Image 5">
+        </section>
+
+        <section class="hero">
+            <div class="text">
+                <h1>Enquiry Form</h1><hr color="#004a7c"><br>
+            </div>
+
+            <form action="backend.php" method="post" class="enquiry-form">
+                <label for="name">Full Name: </label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email Address: </label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="phone">Phone Number: </label>
+                <input type="tel" id="phone" name="phone" required>
+    
+                <label for="package">Preferred Package: </label>
+                <select id="package" name="package" required>
+                    <option value="none">---</option>
+                    <option value="adventure">Adventure Tour</option>
+                    <option value="cultural">Cultural Tour</option>
+                    <option value="wildlife">Wildlife Safari</option>
+                    <option value="beach">Beach Getaway</option>
+                </select>
+    
+                <label for="message">Message or Special Requests: </label>
+                <textarea id="message" name="message" rows="4"></textarea>
+    
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section about">
+                    <h2>About Us</h2>
+                    <p>We are dedicated to providing unforgettable travel experiences to explore the beauty of Sri Lanka, from its vibrant culture to breathtaking landscapes.</p>
+                </div>
+                
+                <div class="footer-section links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="packages.html">Packages</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="enquiry.html">Enquiry</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section contact">
+                    <h2>Contact Us</h2>
+                    <p>Address: 123 Tourism Street, Colombo, Sri Lanka</p>
+                    <p>Phone: +94 123 456 789</p>
+                    <p>Email: info@tourismsrilanka.com</p>
+                </div>
+                
+                <div class="footer-section social">
+                    <h2>Follow Us</h2>
+                    <div class="social-icons">
+                        <a href="#"><img src="fb.png" alt="Facebook"></a>
+                        <a href="#"><img src="Instagram.svg.webp" alt="Instagram"></a>
+                        <a href="#"><img src="twitter.png" alt="Twitter"></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ceylon Escape. All rights reserved.</p>
+            </div>
+        </footer>
+
+    </body>
+</html>

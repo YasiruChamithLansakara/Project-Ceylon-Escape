@@ -1,0 +1,159 @@
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+
+.logo img {
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.about a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.slideshow {
+    max-width: 100%;
+    position: absolute;
+    margin: auto;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.slide {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: slideAnimation 16s infinite;
+}
+
+.slide:nth-child(1) { animation-delay: 0s; }
+.slide:nth-child(2) { animation-delay: 4s; }
+.slide:nth-child(3) { animation-delay: 8s; }
+.slide:nth-child(4) { animation-delay: 12s; }
+
+@keyframes slideAnimation {
+    0% { opacity: 0; }
+    8% { opacity: 1; }
+    25% { opacity: 1; }
+    33% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    max-width: 700px;
+    padding: 0 0 6%;
+}
+
+.hero-content h4 {
+    font-size: 3em;
+    opacity: 0.8;
+}
+
+.hero-content::before {
+    content: "Ayubowan";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 11.25em;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.hero-content h1 {
+    font-size: 6em;
+    margin: 50px 0;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.trip-planning {
+    padding: 10rem 5rem;
+    background-color: #f9f9f9;
+    text-align: center;
+    position: relative;
+}
+
+.trip-planning h2 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.planning-cards {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.planning-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    max-width: 100%;
+    text-align: left;
+    color: #333;
+}
+
+.planning-card img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+}
+
+.planning-card h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.planning-card p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.read-article {
+    font-size: 0.9em;
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.read-article:hover {
+    color: #005bb5;
+}
